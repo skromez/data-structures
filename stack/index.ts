@@ -2,7 +2,6 @@ import { DoublyLinkedList } from '../doubly-linked-list';
 
 export class Stack<T> {
   private list = new DoublyLinkedList<T>()
-  stack: T[] = []
 
   public isEmpty(): boolean {
     return this.size() === 0;
